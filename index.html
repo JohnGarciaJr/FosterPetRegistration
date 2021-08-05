@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Foster A Pet</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!--I hope that code I used to insert a photo of the pet is accepteable. Searched for a good amount of time for standard html, however, come across this code that worked for me.-->
+  <body>
+    <header>
+      <center>
+      <h1>Sign Up to Foster a Pet</h1>
+        <table>
+          <tr>
+            <th colspan="4">Avaiable Pets</th>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Breed</td>
+            <td>Photo</td>
+          </tr>
+          <tr>
+            <td>Benny</td>
+            <td>2</td>
+            <td>Golden Retriever</td>
+            <td>
+              	<a class="\1" data-lightbox="\1"><img class="example-image" alt="Benny, Golden Retriever" src="https://www.petethevet.com/wp-content/uploads/2018/02/448skintumour-2-890x440.jpg"></a>
+            </td
+          </tr>
+          <tr>
+            <td>Felix</td>
+            <td>5</td>
+            <td>Orange Tabby</td>
+            <td>
+              	<a class="\1" data-lightbox="\1"><img class="example-image" alt="Felix, Orange Tabby" src="https://i.pinimg.com/originals/29/c9/20/29c920f167196175888218755a5ecde1.jpg"></a>
+            </td
+          </tr>
+          <tr>
+            <td>Cooper</td>
+            <td>8</td>
+            <td>German Shepard</td>
+            <td>
+              	<a class="\1" data-lightbox="\1"><img class="example-image" alt="Cooper, German Shepard" src="https://s6004.pcdn.co/wp-content/uploads/2015/04/46072975f2646607264c86a8512bcdc0.jpg"></a>
+            </td
+          </tr>
+          <tr>
+            <td>Anna</td>
+            <td>3</td>
+            <td>Long-Haired Dachshund</td>
+            <td>
+              	<a class="\1" data-lightbox="\1"><img class="example-image" alt="Anna, Long-Haired Dachshund" src="https://animals.net/wp-content/uploads/2018/07/Dachshund-6-650x425.jpg"></a>
+            </td
+          </tr>
+        </table>
+      </center> 
+      <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
+    </header>
+    <form>
+      <lable for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Jane Doe" name="name">
+      <br>
+      <label for="dob"> Date of Birth</label>
+      <input type="date" id="dob" name="dob">
+      <br>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="email@domain.com" name="email">
+      <label for="pw">Password</label>
+      <input type="password" id="pw" name="password">
+      <br>
+      <label for="num-pets">Number of Pets</label>
+      <input type="number" min="0" name="num-pets">
+      <h4>Have you fostered before?</h4>
+      <label for="yes">
+        <input type="radio" id="yes" name="pre-experience">Yes</input>
+      </label>
+      <label for="no">
+        <input type="radio" id="no" name="pre-experience">No</input>
+      </label>
+      <h4>Which of these apply to your home?</h4>
+      <label for="apartment">Apertment</label>
+      <input type="checkbox" id="apartment" name="apartment">
+      <label for="children">Children</label>
+      <input type="checkbox" id="children" name="children">
+      <label for="Yard">Yard</label>
+      <input type="checkbox" id="yard" name="yard">
+      <br>
+      <input type="submit" value="Sign Up!">
+    </form>
+  </body>
+</html>
